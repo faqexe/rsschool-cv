@@ -57,3 +57,12 @@ function last(arr) {
 **Diploma of Secondary Professional Education:**
 * **2007** - Tambov Regional State Budgetary Vocational Educational Institution "Uvarovsky Chemical And Technological College
 _Technician in the field of automated information processing and control systems (by industry)_
+
+## Courses
+* **National Research Tomsk State University:** Certificate of professional development - Web programmer
+* **freeCodeCamp:** [Responsive Web Design](https://freecodecamp.org/certification/faqexe/responsive-web-design)
+* **freeCodeCamp:** [JavaScript Algorithms and Data Structures](https://freecodecamp.org/certification/faqexe/javascript-algorithms-and-data-structures)
+
+## Languages
+* **Russia:** Native
+* **English:** A2 - Elementary (B1 in process)
