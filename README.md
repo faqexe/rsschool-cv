@@ -1,1 +1,1 @@
-# rsschool-cv
+https://faqexe.github.io/rsschool-cv/cv
