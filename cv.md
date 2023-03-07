@@ -52,3 +52,8 @@ function last(arr) {
 * [Fortune Cookies](https://github.com/faqexe/JS/tree/master/Games/Fortune)
 * [Guess the number](https://github.com/faqexe/JS/tree/master/Games/Number)
 * [Tic Tac Toe](https://github.com/faqexe/JS/tree/master/Games/TicTacToe)
+
+## Education
+**Diploma of Secondary Professional Education:**
+* **2007** - Tambov Regional State Budgetary Vocational Educational Institution "Uvarovsky Chemical And Technological College
+_Technician in the field of automated information processing and control systems (by industry)_
