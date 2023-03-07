@@ -41,3 +41,14 @@ function last(arr) {
   return Number(arr.slice(arr.length - 1));
 }
 ```
+
+## Projects
+**HTML\CSS**
+* [Oxygen](https://github.com/faqexe/Training/tree/master/3)
+* [Housing Complex](https://github.com/faqexe/Training/tree/master/4)
+* [Anow](https://github.com/faqexe/Training/tree/master/5)
+
+**JavaScript**
+* [Fortune Cookies](https://github.com/faqexe/JS/tree/master/Games/Fortune)
+* [Guess the number](https://github.com/faqexe/JS/tree/master/Games/Number)
+* [Tic Tac Toe](https://github.com/faqexe/JS/tree/master/Games/TicTacToe)
