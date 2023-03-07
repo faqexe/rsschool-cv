@@ -21,3 +21,23 @@
 * VS Code
 * Figma
 * Photoshop
+
+## Code Example
+[Link to the Kata](https://www.codewars.com/kata/54592a5052756d5c5d0009c3/javascript)
+```javascript
+function head(arr) {
+  return Number(arr.slice(0, 1));
+}
+
+function tail(arr) {
+  return arr.slice(1);
+}
+
+function init(arr) {
+  return arr.slice(0, arr.length - 1);
+}
+
+function last(arr) {
+  return Number(arr.slice(arr.length - 1));
+}
+```
