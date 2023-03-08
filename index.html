@@ -5,10 +5,242 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <title>CV</title>
 </head>
 
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages" class="nav-link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main main-container">
+      <section class="section" id="contacts">
+        <div class="section-title">
+          <div class="title">
+            <h1>Anatoly Knizhentsev</h1>
+            <p>Junior Frontend Developer</p>
+          </div>
+          <div class="photo">
+            <img class="me" src="images/photo.jpg" alt="photo">
+          </div>
+        </div>
+        <div class="section-links">
+          <div class="location contacts-link">
+            <img src="images/contacts/location.svg" alt="location">
+            <a href="https://goo.su/gbfQYFs" target="_blank">Uvarovo, Russia</a>
+          </div>
+          <div class="phone contacts-link">
+            <img src="images/contacts/phone.svg" alt="phone">
+            <a href="tel:+79290186936">+79290186936</a>
+          </div>
+          <div class="mail contacts-link">
+            <img src="images/contacts/mail.svg" alt="mail">
+            <a href="mailto:faqexe@icloud.com">faqexe@icloud.com</a>
+          </div>
+          <div class="github contacts-link">
+            <img src="images/contacts/github.svg" alt="github">
+            <a href="https://github.com/faqexe" target="_blank">faqexe</a>
+          </div>
+          <div class="telegram contacts-link">
+            <img src="images/contacts/telegram.svg" alt="telegram">
+            <a href="https://t.me/knizhentsevan" target="_blank">@knizhentsevan</a>
+          </div>
+          <div class="discord contacts-link">
+            <img src="images/contacts/discord.svg" alt="discord">
+            <a href="https://discord.com/invite/PRADsJB" target="_blank">Anatoly Knizhentsev</a>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="summary">
+        <div class="section-title">
+          <h2>Summary</h2>
+        </div>
+        <div class="summary-text">
+          <p>
+            I can find a common language with people and work in a team,
+            quickly adapt to a new team. I have a high level of
+            self-discipline and self-learning. Constantly working on improving
+            existing skills and learning new ones. Without problems, I cope
+            with multitasking and large amounts of information. Always see
+            things through to the end. Responsibly approach the execution of
+            any assignment and work. Attentive to details.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="skills">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-text">
+          <h3>Learned and mastered web development technologies</h3>
+          <ul class="skills-list">
+            <li><img src="images/skills/html.svg" alt="html">HTML</li>
+            <li><img src="images/skills/css.svg" alt="css">CSS</li>
+            <li><img src="images/skills/js.svg" alt="js">JavaScript</li>
+            <li><img src="images/skills/sass.svg" alt="sass">SASS\SCSS</li>
+            <li><img src="images/skills/bem.svg" alt="bem">BEM</li>
+            <li>
+              <img src="images/skills/bootstrap.svg" alt="bootstrap">Bootstrap
+            </li>
+            <li>
+              <img src="images/skills/github.svg" alt="github">Git\GitHub
+            </li>
+            <li>
+              <img src="images/skills/wordpress.svg" alt="wordpress">Wordpress
+            </li>
+            <li><img src="images/skills/vs.svg" alt="vs">VS Code</li>
+            <li><img src="images/skills/figma.svg" alt="figma">Figma</li>
+            <li>
+              <img src="images/skills/photoshop.svg" alt="photoshop">Photoshop
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section" id="projects">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+        <div class="project-links">
+          <h3>Some examples of independent work</h3>
+          <div class="project-lists">
+            <div class="links-one">
+              <h4>HTML\CSS Pages</h4>
+              <ul class="pages-links">
+                <li>
+                  <a href="https://github.com/faqexe/Training/tree/master/3" target="_blank">Oxygen</a>
+                </li>
+                <li>
+                  <a href="https://github.com/faqexe/Training/tree/master/4" target="_blank">Housing Complex</a>
+                </li>
+                <li>
+                  <a href="https://github.com/faqexe/Training/tree/master/5" target="_blank">Anow</a>
+                </li>
+              </ul>
+            </div>
+            <div class="links-two">
+              <h4>JavaScript Games</h4>
+              <ul class="js-links">
+                <li>
+                  <a href="https://github.com/faqexe/JS/tree/master/Games/Fortune" target="_blank">Fortune Cookies</a>
+                </li>
+                <li>
+                  <a href="https://github.com/faqexe/JS/tree/master/Games/Number" target="_blank">Guess the number</a>
+                </li>
+                <li>
+                  <a href="https://github.com/faqexe/JS/tree/master/Games/TicTacToe" target="_blank">Tic Tac Toe</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="courses">
+        <div class="section-title">
+          <h2>Courses</h2>
+        </div>
+        <div class="courses-certificates">
+          <h3>Recent courses completed</h3>
+          <p>
+            <strong>National Research Tomsk State University</strong>:
+            Certificate of professional development - Web programmer
+          </p>
+          <p>
+            <strong>freeCodeCamp:</strong>
+            <a href="https://freecodecamp.org/certification/faqexe/responsive-web-design" target="_blank">Responsive Web
+              Design</a>
+          </p>
+          <p>
+            <strong>freeCodeCamp:</strong>
+            <a href="https://freecodecamp.org/certification/faqexe/javascript-algorithms-and-data-structures"
+              target="_blank">JavaScript Algorithms and Data Structures</a>
+          </p>
+        </div>
+        <div class="courses-images">
+          <img src="images/courses/Certificate.png" alt="certificate">
+        </div>
+      </section>
+      <section class="section" id="code">
+        <div class="section-title">
+          <h2>Code Example</h2>
+        </div>
+        <div class="code-image">
+          <h3>Codewars Kata</h3>
+          <a href="https://www.codewars.com/kata/54592a5052756d5c5d0009c3/javascript" target="_blank">Link to the
+            Kata</a>
+          <p>Haskell has some useful functions for dealing with lists...</p>
+          <p>
+            Your job is to implement these functions in your given language.
+            Make sure it doesn't edit the array; that would cause problems!
+          </p>
+          <img src="images/code.png" alt="code">
+        </div>
+      </section>
+      <section class="section" id="education">
+        <div class="section-title">
+          <h2>Education</h2>
+        </div>
+        <div class="education-diploma">
+          <h3>Diploma of Secondary Professional Education</h3>
+          <p>
+            <strong>2007 - Tambov Regional State Budgetary Vocational Educational
+              Institution "Uvarovsky Chemical And Technological
+              College</strong>
+          </p>
+          <p>
+            Technician in the field of automated information processing and
+            control systems (by industry)
+          </p>
+        </div>
+      </section>
+      <section class="section" id="languages">
+        <div class="section-title">
+          <h2>Languages</h2>
+        </div>
+        <div class="section-text">
+          <h3>Language proficiency levels</h3>
+          <p><strong>Russia:</strong> Native</p>
+          <p><strong>English:</strong> A2 - Elementary (B1 in process)</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="rs-logo" src="images/rs_school_js.svg" alt="logo">
+      <p>2023</p>
+      <a href="https://rs.school/js/" target="_blank">JavaScript/Front-end course</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
